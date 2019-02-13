@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size android:height="40dp" />
+    <!--大小为高度的一半-->
+    <corners android:radius="20dp" />
+
+    <solid android:color="#e7e7e8" />
+    <stroke
+        android:width="20dp"
+        android:color="#00000000" />
+</shape>

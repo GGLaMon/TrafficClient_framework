@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.dreamheart.autoscalinglayout.ASLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    custom:designWidth="1280dp"
+    custom:designHeight="725dp"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RadioGroup
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/F16"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="600dp"
+            android:button="@null"
+            android:text="个人信息"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+        <RadioButton
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:button="@null"
+            android:text="充值记录"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+        <RadioButton
+            android:id="@+id/tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="阈值设置"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp" />
+</me.dreamheart.autoscalinglayout.ASLinearLayout>
